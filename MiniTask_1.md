@@ -1,5 +1,5 @@
 # MiniTask-1
-### 15 Projects based on Tech Electronics:
+# 15 Projects based on Tech Electronics:
 
 	1. Webcam Privacy Friend
 To cover the webcam using a push button, it is made as an eye ball as it adds an element which is noticeable whenever we see the screen. It is a motorized 3D printed eye ball that sits on top of the screen. Trinket M0 microcontroller is used, a micro servo motor to rotate the eye lid to close and open the webcam. A momentary switch triggers the motor to move, DS3231 Real time clock module keeps track of the time, the potentiometer is used to read the number of minutes and after a while the eyelid closes, it can also be closed using the push button. Now this circuit is soldered and using 3D printing given a very good looking eye model.
