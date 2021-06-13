@@ -3,6 +3,7 @@
 
 	1. Webcam Privacy Friend
 To cover the webcam using a push button, it is made as an eye ball as it adds an element which is noticeable whenever we see the screen. It is a motorized 3D printed eye ball that sits on top of the screen. Trinket M0 microcontroller is used, a micro servo motor to rotate the eye lid to close and open the webcam. A momentary switch triggers the motor to move, DS3231 Real time clock module keeps track of the time, the potentiometer is used to read the number of minutes and after a while the eyelid closes, it can also be closed using the push button. Now this circuit is soldered and using 3D printing given a very good looking eye model.
+![Webcam_Privacy_Friend](https://user-images.githubusercontent.com/85408861/121813008-d4eec080-cc87-11eb-8532-0591cbec36ff.gif)
 
 
 	2.  Boolean Algebra Calculator
@@ -13,6 +14,8 @@ To prevent our goods getting pick pocketed, It consists of an LM380, resistors, 
 
 	4.  Electronic Letter Box 
 To indicate the presence of a letter in a letter box, LED is used as an indication it will be on when the letter box is empty once it contains a letter the LED turns off. It contains LED to emit light inside the letter box, LDR to detect this light when there is no letter and  in the presence of letter this light is blocked and the output changes this is connected to LM741 opamp which outputs low signal when the letter is not present, and high signal when the letter is present. This signal is now passed onto CD4001 Quad NOR Gate IC, it takes the signal as input and outputs a low signal when letter is absent resulting in the LED turned on, when the letter is present it outputs a HIGH signal resulting in turning off the LED which implies that there is a letter in  the letter box. 
+![Electronic-Letter-Box-Output](https://user-images.githubusercontent.com/85408861/121812924-817c7280-cc87-11eb-9efe-97e21b34bc76.gif)
+
 
 	5. Air Quality Monitor
 To measure surrounding air quality and display the temperature and humidity in the room. It consists of Arduino Nano R3, DHT11 Temperature and Humidity Sensor, MQ135 Air Quality Sensor, OLED display to display the output. Knowing the air quality around us is very vital in current situations, this devices displays the same, the MQ135 air quality sensor monitors the air quality around us, DHT11 Temperature and Humidity sensor as the name describes it monitors the Temperature and Humidity, the OLED displays all the results. The circuit is soldered and embedded to finish the machine which is the Air Quality Monitor. 
