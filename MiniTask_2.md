@@ -1,4 +1,4 @@
-# 
+# MiniTask-1
 ### Auto Intensity Control of Street Lights
 
 **Problem Statement :** Controlling the intensity of the street light based on the time and the lighting of the environment.
