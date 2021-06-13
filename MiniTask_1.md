@@ -43,6 +43,7 @@ To protect bikes from thieves using the power of machine learning. the platform 
 
 	11. Pulse Oximeter and Heart Rate Monitor
 To display the blood oxygen level, and monitors the heart rate. This device is not reliable or accurate enough to be used as a medical diagnosis or reference, but provides a way to build the same. It consists of Arduino Nano, Breadboard, MAX30102 Sensor, I2C OLED Screen, LED's, resistors. Make sure to use 3.3 V output from the Arduino and not 5 V accidentally using the 5 V could damage screen or MAX30102 sensor.  Do not power the Arduino until the wiring is completed and double-checked, and do not leave the Arduino powered while fixing connections on the breadboard. Also, ensure that the LEDs are in the proper orientation: the longer leg (anode) of the LED is the positive side and should be connected to the Arduino pins and resistor, while the shorter side (cathode) should be connected to ground. It works when we place our finger on the sensor, Heart rate, SP02 is displayed on the screen, range of SP02 values is predetermined and green color is displayed if it is in good range else red color is displayed. 
+
 ![image](https://user-images.githubusercontent.com/85408861/121812596-05cdf600-cc86-11eb-83cb-f28c0c098551.png)
 ![image](https://user-images.githubusercontent.com/85408861/121812601-0bc3d700-cc86-11eb-9f41-c6aea0c88476.png)
 
