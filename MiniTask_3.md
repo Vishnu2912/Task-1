@@ -43,8 +43,8 @@ If some module is hot?
 Then there is a problem with the circuit it can behave differently in sometime as something might have been burnt, if so replace it with another one and check the connections properly that might be responsible for burning the module.
 
 **Testing Ultrasonic sensor :** The ultrasonic sensor (eyes) on the front of your robot is used to estimate the distance to an object in front of the robot.  It does this by “pinging” (emitting an ultrasonic signal which bounces back to a sensor over the “eyes”).  The code then converts the duration of the time it took to emit and sense the signal to a distance. When the robot is plugged into your computer, and you have an open serial monitor (select “Tools” from your Arduino IDE menu), you will see a continuous stream of output in the monitor describing the distance (in CM) of an object in front of the robot’s ultrasonic sensor (eyes): 
-
-// Ultrasonic sensor pins_
+```
+// Ultrasonic sensor pins
 #define echoPin A0
 #define pingPin 3
 void setup() {
@@ -73,10 +73,10 @@ return duration;
 long msToCm(long microseconds) {
 return microseconds / 29 / 2;
 }
+```
 
-
-Testing Motor Driver : Try writing Code setting l1 HIGH and l2 LOW and check if the motors rotate. Because if it doesn't then the problem is usually with the Motor driver and a motor driver can be destroyed easily. So , Make sure you don't short it / Power it on before checking your circuit twice.
-
+**Testing Motor Driver :** Try writing Code setting l1 HIGH and l2 LOW and check if the motors rotate. Because if it doesn't then the problem is usually with the Motor driver and a motor driver can be destroyed easily. So , Make sure you don't short it / Power it on before checking your circuit twice.
+```
 int l1 = 6;
 int r1 = 5;
 int l2 = 4;
@@ -95,7 +95,7 @@ int r2 = 3;
 }
 	void loop() {
 }
-
+```
 See any movement ? Then Motor Driver is working Properly ( Make sure the Wires touch the Metal Contact in the motors)
 
 **Testing Microcontroller :** If all other modules Lights up , but you cannot upload code to microcontroller and if the IC is hot , you would have probably burnt it , but shorting an microcontroller isn't easy , they have inbuilt mechanisms to prevent it so check other components before concluding that the microcontroller might have shorted.
