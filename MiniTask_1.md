@@ -1,4 +1,4 @@
-# MiniTask-1, Electronics Club, IIT Madras 2020-2021.
+# MiniTask-1
 ### 15 Projects based on Tech Electronics:
 
 	1. Webcam Privacy Friend
