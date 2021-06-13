@@ -78,5 +78,6 @@ To detect the North Pole and South Pole of a magnet, whether it is neodymium mag
 
 
 After connecting the circuit, as shown in the above image, power the setup using a 9V battery. Initially, LEDs will be in High state. Now bring a magnet closer to the Magnet sensors, if you bring south pole near to Red LED, it will turn off. And if you bring North pole near to Green LED indicates it becomes off.
+![Magnetic-Polarity-Detector](https://user-images.githubusercontent.com/85408861/121814810-97426580-cc90-11eb-88a8-83ca6b177431.gif)
 
 
