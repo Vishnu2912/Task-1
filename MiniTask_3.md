@@ -1,5 +1,5 @@
-# MiniTask-3 - Debugging Tutorial
-
+# MiniTask-3
+# Debugging Tutorial
 
 # Auto Intensity Control of Street lights
 
