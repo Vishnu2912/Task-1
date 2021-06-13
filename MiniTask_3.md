@@ -1,10 +1,10 @@
 # Debugging Tutorial
 
 
-Auto Intensity Control of Street lights
+# Auto Intensity Control of Street lights
 
-Mechanism :
-DS1307 Real time clock -- LDR -- Microcontroller -- LCD Display of Time -- LED Array
+### Mechanism :
+### DS1307 Real time clock -- LDR -- Microcontroller -- LCD Display of Time -- LED Array
 
 The issue with the circuit might be due to one or more of the above components.
 Does all the modules light up?
@@ -28,10 +28,10 @@ Testing LED's : We can test the LED's using a Multimeter, the multimeter with a 
 Using the above mentioned methods we can test and Debug all the components of the circuit one by one based on the suspicions we identify and following this method recursively we can get the circuit working.
 	
 	
-Obstacle Avoiding Robot 
+# Obstacle Avoiding Robot 
 
-Mechanism :
-Ultrasonic Sensor -- Microcontroller -- Motor Driver -- Servo Motor 
+### Mechanism :
+### Ultrasonic Sensor -- Microcontroller -- Motor Driver -- Servo Motor 
 
 The issue with the circuit might be due to one or more of the above components.
 Does all the modules light up?
